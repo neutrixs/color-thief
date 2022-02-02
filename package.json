@@ -34,9 +34,5 @@
         "test": "mocha && cypress run --config video=false",
         "test:browser": "cypress open",
         "test:node": "mocha"
-    },
-    "dependencies": {
-        "get-pixels": "^3.3.2",
-        "quantize": "github:neutrixs/quantize"
     }
 }
