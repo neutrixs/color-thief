@@ -1,38 +1,41 @@
 {
-    "name": "colorthief",
-    "version": "2.3.2",
-    "author": {
-        "name": "Lokesh Dhakar",
-        "email": "lokesh.dhakar@gmail.com",
-        "url": "http://lokeshdhakar.com/"
-    },
-    "description": "Get the dominant color or color palette from an image.",
-    "keywords": [
-        "color",
-        "palette",
-        "sampling",
-        "image",
-        "picture",
-        "photo",
-        "canvas"
-    ],
-    "homepage": "http://lokeshdhakar.com/projects/color-thief/",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/lokesh/color-thief.git"
-    },
-    "license": "MIT",
-    "source": "src/color-thief.js",
-    "main": "dist/color-thief.js",
-    "module": "dist/color-thief.mjs",
-    "umd:main": "dist/color-thief.umd.js",
-    "amdName": "ColorThief",
-    "scripts": {
-        "build": "microbundle --no-sourcemap && node ./build/build.js",
-        "watch": "microbundle watch --no-sourcemap",
-        "dev": "http-server",
-        "test": "mocha && cypress run --config video=false",
-        "test:browser": "cypress open",
-        "test:node": "mocha"
-    }
+  "name": "@neutrixs/colorthief",
+  "version": "2.3.2",
+  "author": "Lokesh Dhakar <lokesh.dhakar@gmail.com> (http://lokeshdhakar.com/)",
+  "description": "Get the dominant color or color palette from an image.",
+  "keywords": [
+    "color",
+    "palette",
+    "sampling",
+    "image",
+    "picture",
+    "photo",
+    "canvas"
+  ],
+  "homepage": "http://lokeshdhakar.com/projects/color-thief/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lokesh/color-thief.git"
+  },
+  "license": "MIT",
+  "source": "src/color-thief.js",
+  "main": "dist/color-thief.js",
+  "module": "dist/color-thief.mjs",
+  "umd:main": "dist/color-thief.umd.js",
+  "amdName": "ColorThief",
+  "scripts": {
+    "build": "microbundle --no-sourcemap && node ./build/build.js",
+    "watch": "microbundle watch --no-sourcemap",
+    "dev": "http-server",
+    "test": "mocha && cypress run --config video=false",
+    "test:browser": "cypress open",
+    "test:node": "mocha"
+  },
+  "bugs": {
+    "url": "https://github.com/lokesh/color-thief/issues"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  }
 }
