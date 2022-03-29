@@ -1,6 +1,6 @@
 {
   "name": "@neutrixs/colorthief",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "author": "Lokesh Dhakar <lokesh.dhakar@gmail.com> (http://lokeshdhakar.com/)",
   "description": "Get the dominant color or color palette from an image.",
   "keywords": [
@@ -22,6 +22,7 @@
   "main": "dist/color-thief.js",
   "module": "dist/color-thief.mjs",
   "umd:main": "dist/color-thief.umd.js",
+  "types": "./index.d.ts",
   "amdName": "ColorThief",
   "scripts": {
     "build": "microbundle --no-sourcemap && node ./build/build.js",
